@@ -24,8 +24,12 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = """
+  A formatter in Swift is a class that helps format the textual representation of 
+  values in text fields or text views. It allows you to display data in a user-friendly way. 
+  For example, you can use a formatter to display a currency symbol along with a number. 
+  Swift provides a few built-in formatters, but you can also create your own custom formatters.
+  """
 
   s.homepage     = "https://github.com/ThulaniMtetwa/CustomFormats"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
