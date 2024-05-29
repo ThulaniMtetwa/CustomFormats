@@ -11,6 +11,7 @@
 		8A46FE102C06F1600064042C /* FormatterHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A46FE052C06F1600064042C /* FormatterHelper.framework */; };
 		8A46FE152C06F1600064042C /* FormatterHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46FE142C06F1600064042C /* FormatterHelperTests.swift */; };
 		8A46FE162C06F1600064042C /* FormatterHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A46FE082C06F1600064042C /* FormatterHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A46FE202C06F1720064042C /* HexFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46FE1F2C06F1720064042C /* HexFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		8A46FE092C06F1600064042C /* FormatterHelper.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FormatterHelper.docc; sourceTree = "<group>"; };
 		8A46FE0F2C06F1600064042C /* FormatterHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormatterHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A46FE142C06F1600064042C /* FormatterHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterHelperTests.swift; sourceTree = "<group>"; };
+		8A46FE1F2C06F1720064042C /* HexFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				8A46FE082C06F1600064042C /* FormatterHelper.h */,
 				8A46FE092C06F1600064042C /* FormatterHelper.docc */,
+				8A46FE1F2C06F1720064042C /* HexFormatter.swift */,
 			);
 			path = FormatterHelper;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A46FE202C06F1720064042C /* HexFormatter.swift in Sources */,
 				8A46FE0A2C06F1600064042C /* FormatterHelper.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,10 +350,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 592CJ8YFSQ;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 592CJ8YFSQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 592CJ8YFSQ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -367,6 +374,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thulanimtetwa.FormatterHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -379,10 +387,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 592CJ8YFSQ;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 592CJ8YFSQ;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 592CJ8YFSQ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -400,6 +411,7 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thulanimtetwa.FormatterHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -411,6 +423,7 @@
 		8A46FE1D2C06F1600064042C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 592CJ8YFSQ;
@@ -427,6 +440,7 @@
 		8A46FE1E2C06F1600064042C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 592CJ8YFSQ;

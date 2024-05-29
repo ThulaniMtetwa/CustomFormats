@@ -1,0 +1,26 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/thulanimtetwa/Library/Developer/Xcode/DerivedData/FormatterHelper-dvgmobwxzrcvgwedfrccyxnwmump/Build/Intermediates.noindex/ArchiveIntermediates/FormatterHelper/InstallationBuildProductsLocation/Library/Frameworks/FormatterHelper.framework/FormatterHelper'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x303DF, size: 0x8, addend: 0x0, symName: _FormatterHelperVersionString, symObjAddr: 0x0, symBinAddr: 0x1D00, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x30414, size: 0x8, addend: 0x0, symName: _FormatterHelperVersionNumber, symObjAddr: 0x38, symBinAddr: 0x1D38, symSize: 0x0 }
+  - { offsetInCU: 0x2B, offset: 0x30455, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0C6string3forSSSgypSg_tF', symObjAddr: 0x0, symBinAddr: 0x13A0, symSize: 0x180 }
+  - { offsetInCU: 0x85, offset: 0x304AF, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0C6string3forSSSgypSg_tFTo', symObjAddr: 0x180, symBinAddr: 0x1520, symSize: 0xB0 }
+  - { offsetInCU: 0xC4, offset: 0x304EE, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0C14getObjectValue_3for16errorDescriptionSbSAyyXlSgGSg_SSSAySo8NSStringCSgGSgtFTo', symObjAddr: 0x230, symBinAddr: 0x15D0, symSize: 0x60 }
+  - { offsetInCU: 0x119, offset: 0x30543, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0C20isPartialStringValid_010newEditingF016errorDescriptionSbSS_SAySo8NSStringCSgGSgAKtFTo', symObjAddr: 0x290, symBinAddr: 0x1630, symSize: 0x60 }
+  - { offsetInCU: 0x161, offset: 0x3058B, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0CACycfcTo', symObjAddr: 0x2F0, symBinAddr: 0x1690, symSize: 0x80 }
+  - { offsetInCU: 0x1B1, offset: 0x305DB, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0C5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x370, symBinAddr: 0x1710, symSize: 0xB0 }
+  - { offsetInCU: 0x206, offset: 0x30630, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0C14getObjectValue_3for16errorDescriptionSbSAyyXlSgGSg_SSSAySo8NSStringCSgGSgtFTf4nndd_n', symObjAddr: 0x5C0, symBinAddr: 0x1960, symSize: 0x100 }
+  - { offsetInCU: 0x2EE, offset: 0x30718, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0CfETo', symObjAddr: 0x450, symBinAddr: 0x17F0, symSize: 0x30 }
+  - { offsetInCU: 0x31D, offset: 0x30747, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0CMU', symObjAddr: 0x480, symBinAddr: 0x1820, symSize: 0x10 }
+  - { offsetInCU: 0x331, offset: 0x3075B, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0CMa', symObjAddr: 0x490, symBinAddr: 0x1830, symSize: 0x30 }
+  - { offsetInCU: 0x345, offset: 0x3076F, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0CMr', symObjAddr: 0x4C0, symBinAddr: 0x1860, symSize: 0x60 }
+  - { offsetInCU: 0x3C5, offset: 0x307EF, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x7A0, symBinAddr: 0x1B40, symSize: 0x30 }
+  - { offsetInCU: 0x3D9, offset: 0x30803, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x7D0, symBinAddr: 0x1B70, symSize: 0x30 }
+  - { offsetInCU: 0x3ED, offset: 0x30817, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x800, symBinAddr: 0x1BA0, symSize: 0x40 }
+  - { offsetInCU: 0x401, offset: 0x3082B, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x840, symBinAddr: 0x1BE0, symSize: 0x31 }
+  - { offsetInCU: 0x4A9, offset: 0x308D3, size: 0x8, addend: 0x0, symName: '_$sSlsE9dropFirsty11SubSequenceQzSiFSS_Tg5Tf4ng_n', symObjAddr: 0x520, symBinAddr: 0x18C0, symSize: 0xA0 }
+  - { offsetInCU: 0x6DD, offset: 0x30B07, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0C6string3forSSSgypSg_tF', symObjAddr: 0x0, symBinAddr: 0x13A0, symSize: 0x180 }
+  - { offsetInCU: 0x7F9, offset: 0x30C23, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0CfD', symObjAddr: 0x420, symBinAddr: 0x17C0, symSize: 0x30 }
+  - { offsetInCU: 0x859, offset: 0x30C83, size: 0x8, addend: 0x0, symName: '_$s15FormatterHelper03HexA0C20isPartialStringValid_010newEditingF016errorDescriptionSbSS_SAySo8NSStringCSgGSgAKtFTf4nddn_n', symObjAddr: 0x6C0, symBinAddr: 0x1A60, symSize: 0xE0 }
+...
