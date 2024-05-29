@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FormatterHelper"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Custom formatters can be used to validate user input."
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/FormatterHelper.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ThulaniMtetwa/CustomFormats.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
