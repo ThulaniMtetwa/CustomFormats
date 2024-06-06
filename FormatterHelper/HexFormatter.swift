@@ -7,7 +7,7 @@
 
 import Foundation
 
-class HexFormatter: Formatter {
+public class HexFormatter: Formatter {
     
     let hexCharacterSet = CharacterSet(charactersIn: "0123456789ABCDEFabcdef")
     
@@ -18,7 +18,7 @@ class HexFormatter: Formatter {
         return invalidHexRange.isEmpty
     }
     
-    override func string(for obj: Any?) -> String? {
+    public override func string(for obj: Any?) -> String? {
         guard let string = obj as? String,
               string.count == 6,
               isValidHex(string) else { return nil }
@@ -26,7 +26,7 @@ class HexFormatter: Formatter {
         return "#\(string)"
     }
     
-    override func getObjectValue(
+    public override func getObjectValue(
         _ obj: AutoreleasingUnsafeMutablePointer<AnyObject?>?,
         for string: String,
         errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?
@@ -43,7 +43,7 @@ class HexFormatter: Formatter {
     }
     
     
-    override func isPartialStringValid(
+    public override func isPartialStringValid(
         _ partialString: String,
         newEditingString newString: AutoreleasingUnsafeMutablePointer<NSString?>?,
         errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?
